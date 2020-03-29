@@ -1,0 +1,23 @@
+.MyName{
+    background-color: #282c34;
+    color: #282c34;
+    position: absolute;
+    left:0; right:0; top:0; bottom:0;
+    margin:auto;
+    text-align:center
+}
+
+.MyName-test {
+    font-size: calc(35px);
+    color: white;
+    margin:auto;
+}
+
+.MyName-title{
+    font-size: calc(20px);
+    color: white;
+}
+
+.MyName-input {
+    position: center;
+}
