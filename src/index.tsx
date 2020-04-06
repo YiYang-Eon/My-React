@@ -4,11 +4,17 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import MyName from "./MyName";
+import Gender from "./Components/Gender";
+import Age from "./Components/Age";
+import Skills from "./Components/Skills";
 
 ReactDOM.render(
     <React.StrictMode>
-        <MyName/>
-        <App/>
+        {/*<MyName/>*/}
+        <Gender/>
+        <Age/>
+        <Skills/>
+        {/*<App/>*/}
     </React.StrictMode>,
     document.getElementById('root')
 );
